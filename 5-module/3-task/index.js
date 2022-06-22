@@ -3,6 +3,8 @@ function initCarousel() {
     let prev = document.querySelector('.carousel__arrow_left')
 
     let list = document.querySelector('.carousel__inner')
+    console.log(list.offsetWidth)
+
     let listElems = list.querySelectorAll('.carousel__slide')
 
     let width = list.offsetWidth // 988
